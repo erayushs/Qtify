@@ -1,7 +1,9 @@
+import styles from "./Button.module.css";
+
 function Button() {
   return (
     <div>
-      <button>Give Feedback</button>
+      <button className={styles.btn}>Give Feedback</button>
     </div>
   );
 }
