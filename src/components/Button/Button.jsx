@@ -1,9 +1,10 @@
+import React from "react";
 import styles from "./Button.module.css";
 
-function Button() {
+function Button({ children }) {
   return (
     <div>
-      <button className={styles.btn}>Give Feedback</button>
+      <button className={styles.btn}>{children}</button>
     </div>
   );
 }
